@@ -1,0 +1,67 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+./rkt-vm
+
+# Debugging files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.tmp
+*.log
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# IDE specific files
+# CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other build directories
+build/
+bin/
+lib/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
